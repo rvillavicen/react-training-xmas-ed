@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'gestalt/dist/gestalt.css';
 import App from './App';
+import CopyrightComponent from './Copyright'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <CopyrightComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
